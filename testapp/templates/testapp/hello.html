@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}
+    hello test override title
+{% endblock %}
+
+{% block content %}
+<b>Hello World from a Django template</b><br>
+
+    {{ test_table_object.teststring }}
+{% endblock %}
